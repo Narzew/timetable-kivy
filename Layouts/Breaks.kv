@@ -1,0 +1,17 @@
+<Breaks>
+	BoxLayout:
+		orientation: "vertical"
+		ScrollableLabel:
+			Label:
+				id: przerwy_label
+				text: root.show_breaks()
+		BoxLayout:
+			Button:
+				id: przerwy_skrocone
+				text: "Skrócone lekcje"
+				size_hint_y: 0.4
+				on_release: root.toggle_skrocone(1);app.show_ads()
+		Button:
+			text: "Powrót"
+			size_hint_y: 0.4
+			on_release: root.manager.current = 'Main'

@@ -1,0 +1,11 @@
+1. Chemia 1/2 AG 321
+Informatyka 2/2 RG 101
+2. Informatyka 1/2 RG 101
+Chemia 2/2 AG 321
+3. Język Angielski 1/2 MM 221
+Język Niemiecki 2/2 DK 205
+4. Matematyka AD 216
+5. Fizyka EL 312
+6. Historia PR 210
+7. Religia GR 512
+8. 

@@ -1,0 +1,18 @@
+<About>:
+	BoxLayout:
+		orientation: "vertical"
+		ScrollableLabel:
+			Label:
+				text: root.get_about_info()
+		Button:
+			text: "Odwiedź stronę twórcy aplikacji"
+			on_release: root.open_website("http://anonthing.rox.pl")
+			size_hint_y: 0.2
+		Button:
+			text: "E-mail do twórcy aplikacji"
+			on_release: root.send_email_to_dev()
+			size_hint_y: 0.2
+		Button:
+			text: "Powrót"
+			size_hint_y: 0.2
+			on_release: root.manager.current = 'Main'

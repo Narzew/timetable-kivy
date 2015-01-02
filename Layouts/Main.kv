@@ -1,0 +1,30 @@
+Main:
+
+<Main>:
+	BoxLayout:
+		orientation: "vertical"
+		Label:
+			text: "Narzew's Timetable"
+		Button:
+			text: "Plan Lekcji"
+			on_release: root.show_school_plan(),app.show_ads()
+		Button:
+			text: "Dzwonki"
+			on_release: root.manager.current = 'Bells';app.show_ads()
+		Button:
+			text: "Przerwy"
+			on_release: root.manager.current = 'Breaks';app.show_ads()
+		Button:
+			text: "Nauczyciele"
+			on_release: root.manager.current = 'Teachers';app.show_ads()
+		Button:
+			text: "O programie"
+			on_release: root.manager.current = 'About';app.show_ads()
+		Button:
+			text: "Zmień szkołę"
+			on_release: root.manager.current = 'Cities';app.show_ads()
+		Button:
+			text: "Wyjście"
+			on_release: exit()
+		Label:
+			text: "© 2014 Narzew\nWersja: 2.81\nhttp://anonthing.rox.pl"

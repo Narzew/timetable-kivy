@@ -1,0 +1,17 @@
+<CitySanok>
+
+	GridLayout:
+		cols: 2
+		orientation: "horizontal"
+		Button:
+			text: "KEN"
+			on_release: app.select_school("SanokLO1");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Skłodowska"
+			on_release: app.select_school("SanokLO2");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Gim 4"
+			on_release: app.select_school("SanokGim4");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Powrót"
+			on_release: root.manager.current = 'Cities';app.show_ads()

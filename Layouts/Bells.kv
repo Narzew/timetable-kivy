@@ -1,0 +1,17 @@
+<Bells>
+	BoxLayout:
+		orientation: "vertical"
+		ScrollableLabel:
+			Label:
+				id: dzwonki_label
+				text: root.show_bells()
+		BoxLayout:
+			Button:
+				id: dzwonki_skrocone
+				text: "Skrócone lekcje"
+				size_hint_y: 0.4
+				on_release: root.toggle_skrocone(0);app.show_ads()
+		Button:
+			text: "Powrót"
+			size_hint_y: 0.4
+			on_release: root.manager.current = 'Main'

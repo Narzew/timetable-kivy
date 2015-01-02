@@ -1,0 +1,28 @@
+<CurrentPlan>
+	BoxLayout:
+		orientation: "vertical"
+		BoxLayout:
+			size_hint_y: 0.2
+			orientation: "horizontal"
+			Button:
+				text: "PN"
+				on_release: root.set_day_nr(1)
+			Button:
+				text: "WT"
+				on_release: root.set_day_nr(2)
+			Button:
+				text: "ŚR"
+				on_release: root.set_day_nr(3)
+			Button:
+				text: "CZ"
+				on_release: root.set_day_nr(4)
+			Button:
+				text: "PT"
+				on_release: root.set_day_nr(5);
+		Label:
+			id: planhere
+			text: "Wybierz dzień tygodnia"
+		Button:
+			text: "Powrót"
+			size_hint_y: 0.2
+			on_release: root.return_to_previous_plan();app.show_ads()

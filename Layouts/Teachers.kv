@@ -1,0 +1,12 @@
+<Teachers>
+	BoxLayout:
+		orientation: "vertical"
+		ScrollableLabel:
+			Label:
+				text: root.get_teachers_list()
+				size_hint_y: None
+				height: self.texture_size[1]
+		Button:
+			text: "Powrót"
+			size_hint_y: 0.2
+			on_release: root.manager.current = 'Main';app.show_ads()

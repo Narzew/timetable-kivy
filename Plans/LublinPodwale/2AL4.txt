@@ -1,0 +1,13 @@
+1. WF #d1 msg 
+WF pr sg4 
+2. WF #d1 msg 
+WF pr sg4 
+3. Język Angielski 1/2 ac 130 
+Język Angielski 2/2 hb 134 
+4. Język Angielski 1/2 ac 130 
+Język Angielski 2/2 hb 134 
+5. Matematyka kc 203 
+6. Informatyka 1/2 th 147 
+Informatyka 2/2 wk 215 
+7. Religia kb 111 
+8. Język Niemiecki 1/2 #n7 22 

@@ -1,0 +1,15 @@
+<Events>
+	BoxLayout:
+		orientation: "vertical"
+		ScrollableLabel:
+			Label:
+				halign: "center"
+				valign: "middle"
+				text: root.get_events_list()
+				size_hint_y: None
+				height: self.texture_size[1]
+				text_size: self.size
+		Button:
+			text: "Powrót"
+			size_hint_y: 0.2
+			on_release: root.manager.current = 'Main';app.show_ads()

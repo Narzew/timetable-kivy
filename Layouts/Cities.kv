@@ -1,0 +1,14 @@
+<Cities>
+
+	GridLayout:
+		rows: 3
+		orientation: "horizontal"
+		Button:
+			text: "Lublin"
+			on_release: root.manager.current = 'CityLublin';app.show_ads()
+		Button:
+			text: "Sanok"
+			on_release: root.manager.current = 'CitySanok';app.show_ads()
+		Button:
+			text: "Powrót"
+			on_release: root.manager.current = 'Main';app.show_ads()

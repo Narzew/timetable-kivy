@@ -1,0 +1,29 @@
+<CityLublin>
+
+	GridLayout:
+		cols: 2
+		orientation: "horizontal"
+		Button:
+			text: "Biskupiak"
+			on_release: app.select_school("LublinBiskupiak");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Zamoyski"
+			on_release: app.select_school("LublinZamoyski");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Staszic"
+			on_release: app.select_school("LublinStaszic");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Sempołowska"
+			on_release: app.select_school("LublinLO4");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Podwale"
+			on_release: app.select_school("LublinPodwale");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Gim5"
+			on_release: app.select_school("LublinGim5");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Gim7"
+			on_release: app.select_school("LublinGim7");root.manager.current='Main';app.show_ads()
+		Button:
+			text: "Powrót"
+			on_release: root.manager.current = 'Cities';app.show_ads()

@@ -1,0 +1,12 @@
+1. WF #d5 sg1 
+WF #c4 sg2 
+WF ca msg 
+2. WF #d5 sg1 
+WF #c4 sg2 
+WF ca msg 
+3. Geografia er 24 
+4. Godzina wychowawcza wt 35 
+5. Język Polski wt 129 
+6. Przedsiębiorczość am 219 
+7. Matematyka kc 203 
+8. Język Angielski 1/2 ka 119 
